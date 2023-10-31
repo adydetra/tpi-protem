@@ -10,11 +10,8 @@
             consectetur tortor, at viverra leo enim at tortor. Mauris tristique purus purus, sit amet tempor lacus suscipit at. Quisque tristique orci magna, vitae tincidunt
             lacus maximus vitae. Lorem ipsum dolor sit amet, consectetur.
           </p>
-          <p class="text-gray-700 flex items-center gap-3 py-2">
-            <img src="../assets/icon/icon.svg" class="border-2 rounded-full border-buku-blue p-2" alt="icon" />Nunc quis justo sed odio scelerisque.
-          </p>
-          <p class="text-gray-700 flex items-center gap-3 py-2">
-            <img src="../assets/icon/icon.svg" class="border-2 rounded-full border-buku-blue p-2" alt="icon" />Duis tristique lorem non risus dignissim.
+          <p v-for="list in lists" class="text-gray-700 flex items-center gap-3 py-2">
+            <img src="../assets/icon/icon.svg" class="border-2 rounded-full border-buku-blue p-2" alt="icon" />{{ list.desc }}
           </p>
           <button class="bg-buku-yellow py-3 px-10 mt-8 text-buku-blue font-bold hover:bg-yellow-400 ease-in-out duration-300">Learn More</button>
         </div>
@@ -27,3 +24,14 @@
     <img alt="Foto" class="block md:hidden lg:block lg:absolute lg:bottom-0 lg:right-0 lg:w-6/12 2xl:w-auto" src="../assets/img/about.png" />
   </section>
 </template>
+
+<script setup>
+const lists = [
+  {
+    desc: "Nunc quis justo sed odio scelerisque.",
+  },
+  {
+    desc: "Duis tristique lorem non risus dignissim.",
+  },
+];
+</script>
