@@ -1,9 +1,9 @@
 <script setup>
-  import TheHeader from './components/TheHeader.vue'
-  import Hero from './components/Hero.vue'
-  import About from './components/About.vue'
-  import Future from './components/Future.vue'
-  import TheFooter from './components/TheFooter.vue'
+import TheHeader from "./components/TheHeader.vue";
+import Hero from "./components/Hero.vue";
+import About from "./components/About.vue";
+import Future from "./components/Future.vue";
+import TheFooter from "./components/TheFooter.vue";
 </script>
 
 <template>
@@ -17,31 +17,19 @@
 </template>
 
 <style scoped>
+#bg {
+  background: #024d94;
+}
+
+@media (min-width: 1024px) {
   #bg {
-    background: #024D94;
+    background: linear-gradient(to right, #024d94 0%, #024d94 53%, #f8d171 47%, #f8d171 100%);
   }
+}
 
-  @media (min-width: 1024px) {
-    #bg {
-      background: linear-gradient(
-        to right,
-        #024D94 0%,
-        #024D94 53%,
-        #F8D171 47%,
-        #F8D171 100%
-      )
-    }
+@media (min-width: 1536px) {
+  #bg {
+    background: linear-gradient(to right, #024d94 0%, #024d94 57%, #f8d171 43%, #f8d171 100%);
   }
-
-  @media (min-width: 1536px) {
-    #bg {
-      background: linear-gradient(
-        to right,
-        #024D94 0%,
-        #024D94 57%,
-        #F8D171 43%,
-        #F8D171 100%
-      )
-    }
-  }
+}
 </style>
