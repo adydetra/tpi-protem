@@ -3,8 +3,12 @@
   "extends": ["config:base"],
   "packageRules": [
     {
-      "matchUpdateTypes": ["major", "minor", "patch"],
-      "automerge": true
+      "matchDepTypes": ["dependencies"],
+      "rangeStrategy": "update-lockfile"
+    },
+    {
+      "automerge": true,
+      "matchUpdateTypes": ["major", "minor", "patch"]
     },
     {
       "automerge": true,
