@@ -1,13 +1,13 @@
 <script setup>
-import TheHeader from "./components/TheHeader.vue";
-import Hero from "./components/Hero.vue";
-import About from "./components/About.vue";
-import Future from "./components/Future.vue";
-import TheFooter from "./components/TheFooter.vue";
+import TheHeader from './components/TheHeader.vue';
+import Hero from './components/Hero.vue';
+import About from './components/About.vue';
+import Future from './components/Future.vue';
+import TheFooter from './components/TheFooter.vue';
 </script>
 
 <template>
-  <section class="min-h-screen md:min-h-full md:pb-16 lg:min-h-screen lg:pb-0" id="bg">
+  <section id="bg" class="min-h-screen md:min-h-full md:pb-16 lg:min-h-screen lg:pb-0">
     <TheHeader />
     <Hero />
   </section>
