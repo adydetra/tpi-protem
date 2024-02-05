@@ -20,7 +20,7 @@ const future = [
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et purus a odio finibus bibendum in sit<br>
         amet leo. Mauris feugiat erat tellus.
       </p>
-      <div class="grid md:grid-cols-2 gap-12 md:gap-36 pt-8 px-3 lg:px-0">
+      <div class="grid lg:grid-cols-2 gap-12 lg:gap-36 pt-8 px-3 lg:px-0">
         <FutureCard v-for="(futures, index) in future" :key="index" :title="futures.title" :icon="futures.icon" :desc="futures.desc" />
       </div>
     </div>
