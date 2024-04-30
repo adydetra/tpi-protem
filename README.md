@@ -2,7 +2,7 @@
 
 ![Static Badge](https://img.shields.io/badge/license-MIT-brightgreen?label=LICENSE)
 
-![preview](/public/preview.png)
+![preview](/public/preview.jpg)
 
 Front End Developer test selection with Vue js, test provided by `PT Teknologi Pustaka Indonesia`.
 
