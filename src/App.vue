@@ -1,9 +1,9 @@
 <script setup>
-import TheHeader from './components/TheHeader.vue';
-import Hero from './components/Hero.vue';
 import About from './components/About.vue';
 import Future from './components/Future.vue';
+import Hero from './components/Hero.vue';
 import TheFooter from './components/TheFooter.vue';
+import TheHeader from './components/TheHeader.vue';
 </script>
 
 <template>

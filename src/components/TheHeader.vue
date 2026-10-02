@@ -27,9 +27,9 @@ const navs = ref([
   <header class="container mx-auto flex justify-between items-center lg:py-12 py-3 relative z-10 px-3 lg:px-0">
     <nav class="container mx-auto lg:flex lg:justify-between lg:items-center">
       <div class="flex items-center justify-between">
-        <router-link to="/">
+        <a href="#home">
           <img src="../assets/icon/logo.svg" class="-ml-4" alt="Logo">
-        </router-link>
+        </a>
         <div class="flex lg:hidden" @click="showMenu = !showMenu">
           <button type="button" class="text-white hover:text-gray-400 focus:outline-none focus:text-gray-4">
             <svg viewBox="0 0 24 24" class="w-6 h-6 fill-current">
